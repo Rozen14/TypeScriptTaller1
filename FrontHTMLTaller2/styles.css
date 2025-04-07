@@ -1,0 +1,50 @@
+/* styles.css */
+
+/* Estilo para elementos clicables en azul */
+#versiones .list-group-item {
+    color: #0d6efd;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: 500;
+}
+
+#versiones .list-group-item:hover {
+    background-color: #e9f5ff;
+    text-decoration: underline;
+}
+
+/* Card de detalle con mejor estética */
+#detalle .card {
+    border-left: 4px solid #0d6efd;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Espaciado entre secciones */
+section, .row {
+    margin-bottom: 2rem;
+}
+
+/* Imagen con borde suave */
+img {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Botón más visible */
+button.btn-success {
+    background-color: #28a745;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+button.btn-success:hover {
+    background-color: #218838;
+}
+
+/* Encabezados centrados y estéticos */
+h1, h2, h3 {
+    font-family: 'Segoe UI', sans-serif;
+}
